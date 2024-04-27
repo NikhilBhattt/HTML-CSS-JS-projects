@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: darkslategray;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-box{
+  height: 60vmin;
+  width: 60vmin;
+  flex-wrap: wrap;
+  gap: 1.5vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  box-shadow: 0 0 1rem rgb(0,0,0,0.5);
+  border-radius: 1rem;
+  font-size: 7vmin;
+  color: #b0413e;
+  background-color: palegoldenrod;
+  transition: 0.1s all ease-in-out;
+}
+.box:hover{
+  border: 1px solid grey;
+  transform: scale(1.05);
+}
+.reset-btn{
+  color: white;
+  background-color: #41373B;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+h1{
+  color: white;
+  margin-top: 2rem;
+}
+.msg-container{
+  display: none;
+  margin: 1.2rem auto;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 80%;
+}
+.result{
+  color: palegoldenrod;
+  margin: .8rem 0;
+}
+.win-btn{
+  color: white;
+  background-color: #41373B;
+  border: none;
+  border-radius: 1rem;
+  padding: .8rem;
+  font-size: 1.25rem;
+}
+.win-btn:hover{
+  border: 1px solid grey;
+}
+.scoreboard{
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: white;
+}
